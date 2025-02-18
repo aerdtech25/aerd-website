@@ -68,15 +68,77 @@
 								<h3>Premium Components</h3>
 								<p>We use only high-quality parts from trusted suppliers, ensuring reliability and performance.</p>
 							</section>
-							<!-- ... (keep other vision boxes unchanged) ... -->
+							  <!-- Box 2: Fully Customizable -->
+                <section class="col-4 col-6-medium col-12-xsmall box">
+                    <span class="icon solid major fa-cogs"></span>
+                    <h3>Fully Customizable</h3>
+                    <p>Our drones are designed to be tailored to your specific needs, whether for agriculture, surveillance, or delivery.</p>
+                </section>
+                <!-- Box 3: Satellite Communication -->
+                <section class="col-4 col-6-medium col-12-xsmall box">
+                    <span class="icon solid major fa-satellite"></span>
+                    <h3>Satellite Communication</h3>
+                    <p>Advanced satellite communication ensures seamless connectivity and real-time data transmission.</p>
+                </section>
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+			<!-- Contact Section -->
+			<section id="contact" class="wrapper style1 special fade-up">
+				<div class="container">
+					<header class="major">
+						<h2 class="section-heading">Contact AERD</h2>
+						<p class="section-subheading">Reach out to learn more about our drone solutions.</p>
+					</header>
+					<form method="post" action="https://formspree.io/f/mpwqozng" class="cta">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
+							<div class="col-4 col-12-xsmall"><input type="submit" value="Send Inquiry" class="fit primary" /></div>
 						</div>
-					</div>
+					</form>
 				</div>
 			</section>
 
-			<!-- ... (keep remaining sections unchanged) ... -->
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; AERD. All rights reserved.</li>
+				</ul>
+			</footer>
 
 		</div>
-		<!-- ... (keep existing scripts) ... -->
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			// Add animations on scroll
+			$(window).scroll(function() {
+				$('.animate-on-scroll').each(function() {
+					const position = $(this).offset().top;
+					const scrollPosition = $(window).scrollTop() + $(window).height();
+					if (scrollPosition > position) {
+						$(this).addClass('animate__animated animate__fadeInUp');
+					}
+				});
+			});
+		</script>
 	</body>
 </html>
+
