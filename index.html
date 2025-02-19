@@ -1,8 +1,60 @@
 <!DOCTYPE HTML>
+<!--
+	Futuristic Design for AERD - Pioneering Indian Drone Innovation
+-->
 <html>
 	<head>
-		<title>AERD - Pioneering Drone Innovation</title>
-		<!-- ... (keep existing meta tags and stylesheets) ... -->
+		<title>AERD - Pioneering Indian Drone Innovation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Custom Futuristic Styles */
+			body {
+				background: #0a0a0a;
+				color: #fff;
+			}
+			.header-logo {
+				font-size: 1.5rem;
+				font-weight: bold;
+				color: #00ffcc;
+			}
+			.cta-button {
+				background: linear-gradient(45deg, #00ffcc, #00bcd4);
+				border: none;
+				color: #000;
+				font-weight: bold;
+				transition: transform 0.3s ease;
+			}
+			.cta-button:hover {
+				transform: scale(1.1);
+			}
+			.section-heading {
+				font-size: 2.5rem;
+				color: #00ffcc;
+				margin-bottom: 1rem;
+			}
+			.section-subheading {
+				font-size: 1.2rem;
+				color: #aaa;
+			}
+			.image-overlay {
+				position: relative;
+				overflow: hidden;
+			}
+			.image-overlay img {
+				transition: transform 0.5s ease;
+			}
+			.image-overlay:hover img {
+				transform: scale(1.1);
+			}
+			.icon {
+				color: #00ffcc;
+			}
+			
+		</style>
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
@@ -10,23 +62,39 @@
 			<!-- Header -->
 			<header id="header">
 				<h1 id="logo" class="header-logo"><a href="index.html">AERD</a></h1>
-				<!-- ... (keep existing navigation) ... -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<a href="#">Projects</a>
+							<ul>
+								<li><a href="lidar.html">LiDAR Drones</a></li>
+								<li><a href="agri.html">Agri Drones</a></li>
+								<li><a href="logisticsdrone.html">Logistics & Surveillance Drones</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="contact.html" class="cta-button">Contact Us</a></li>
+					</ul>
+				</nav>
 			</header>
 
 			<!-- Banner -->
 			<section id="banner">
 				<div class="content">
 					<header>
-						<h2 class="animate__animated animate__fadeInDown">AERD - Pioneering Drone Innovation</h2>
+						<h2 class="animate__animated animate__fadeInDown">AERD - Pioneering Indian Drone Innovation</h2>
 						<p class="animate__animated animate__fadeInUp">Building the future of autonomous drones.<br />
-						Precision. Performance. Innovation.</p>
+						Precision. Performance. Patriotism.</p>
 					</header>
+					
 				</div>
 				<a href="#one" class="goto-next scrolly">Next</a>
 			</section>
 
 			<!-- About Section -->
 			<section id="one" class="spotlight style1 bottom">
+				<span class="image fit main"><img src="images/pic02.jpg" alt="AERD Drone in Action" /></span>
 				<div class="content">
 					<header>
 						<h2 class="section-heading">About AERD</h2>
@@ -34,10 +102,12 @@
 					</header>
 					<p>AERD is an ambitious startup dedicated to designing and manufacturing fully customizable, autonomous drones using premium components. We deliver innovative drone solutions powered by AI-driven navigation, real-time tracking, and satellite communication for unparalleled precision and reliability.</p>
 				</div>
+				<a href="#two" class="goto-next scrolly">Next</a>
 			</section>
 
 			<!-- Products Section -->
 			<section id="two" class="spotlight style2 right">
+				<span class="image fit main"><img src="images/pic01.jpg" alt="AERD Drone Features" /></span>
 				<div class="content">
 					<header>
 						<h2 class="section-heading">Our Drones</h2>
@@ -47,28 +117,31 @@
 						<li><strong>Flight Time:</strong> Up to 45 minutes</li>
 						<li><strong>Payload Capacity:</strong> 6kg</li>
 						<li><strong>Speed:</strong> 6 km in 5 minutes</li>
-						<li><strong>Material:</strong> Lightweight aerospace-grade alloys and composites</li>
+						<li><strong>Material:</strong> Lightweight Aerospace-grade Carbon-fibre and composites</li>
 						<li><strong>Navigation:</strong> AI-driven autonomous control with satellite communication</li>
 						<li><strong>Customization:</strong> Tailored to meet specific industry needs</li>
 					</ul>
+					
 				</div>
 			</section>
 
 			<!-- Vision Section -->
-			<section id="vision" class="wrapper style1 special fade-up">
-				<div class="container">
-					<header class="major">
-						<h2 class="section-heading">Our Vision</h2>
-						<p class="section-subheading">Empowering next-generation drone ecosystems through innovation.</p>
-					</header>
-					<div class="box alt">
-						<div class="row gtr-uniform">
-							<section class="col-4 col-6-medium col-12-xsmall box">
-								<span class="icon solid major fa-globe"></span>
-								<h3>Premium Components</h3>
-								<p>We use only high-quality parts from trusted suppliers, ensuring reliability and performance.</p>
-							</section>
-							  <!-- Box 2: Fully Customizable -->
+			<!-- Vision Section -->
+<section id="vision" class="wrapper style1 special fade-up">
+    <div class="container">
+        <header class="major">
+            <h2 class="section-heading">Our Vision</h2>
+            <p class="section-subheading">Empowering next-generation drone ecosystems through innovation.</p>
+        </header>
+        <div class="box alt">
+            <div class="row gtr-uniform">
+                <!-- Box 1: 100% Indian Components -->
+                <section class="col-4 col-6-medium col-12-xsmall box">
+                    <span class="icon solid major fa-globe"></span>
+                    <h3>Premium Components</h3>
+                    <p>We use only high-quality parts from trusted suppliers, ensuring reliability and performance.</p>
+                </section>
+                <!-- Box 2: Fully Customizable -->
                 <section class="col-4 col-6-medium col-12-xsmall box">
                     <span class="icon solid major fa-cogs"></span>
                     <h3>Fully Customizable</h3>
@@ -141,4 +214,3 @@
 		</script>
 	</body>
 </html>
-
